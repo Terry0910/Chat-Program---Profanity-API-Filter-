@@ -1,0 +1,22 @@
+
+<div class="container">
+  <div class="msgBox">
+   <ul>
+    <li *ngFor = "let x of message">
+      {{x}}
+    </li>
+   </ul>
+
+  </div>
+
+  <div class="inputBtn">
+    <input #output ngModel = "output" (ngSubmit) = "filter(output.value)" class = "input" type = "text"  id = "output"
+    (keyup.enter) = "filter(output.value)" />
+  <button (click) = "filter(output.value)"
+  >Send</button>
+  </div>
+
+  
+
+
+
