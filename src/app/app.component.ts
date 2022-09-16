@@ -34,13 +34,8 @@ export class AppComponent implements OnInit {
     } else {
       this.newMessage = this.msgApiService.filterApi(output)
       this.message.push(this.newMessage);
-     
-
       // console.log(this.newMessage);
       // console.log(this.msgApiService.filterApi(output));
-      this.message.unshift(this.newMessage);
-
-
     }
   }
 
