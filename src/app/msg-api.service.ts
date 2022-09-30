@@ -33,7 +33,7 @@ export class MsgApiService {
       url: 'https://community-purgomalum.p.rapidapi.com/json',
       params: { text: input },
       headers: {
-        'X-RapidAPI-Key': 'e53afc07c3msh81aee51efbd4478p127da5jsn367377a143a7',
+        'X-RapidAPI-Key': '************************************',
         'X-RapidAPI-Host': 'community-purgomalum.p.rapidapi.com',
       },
     };
